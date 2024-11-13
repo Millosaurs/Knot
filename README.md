@@ -32,40 +32,33 @@ Knot is a modern, intuitive task management application designed to help users o
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/knot-app.git
+   git clone https://github.com/Millosaurs/knot
    ```
 
 2. Navigate to the project directory:
    ```
-   cd knot-app
+   cd knot
    ```
 
 3. Install dependencies:
    ```
-   npm install
+   flutter install
+   or
+   flutter doctor
+   ```
+
+4. Run the development server:
+   ```
+   flutter run -v
    # or
-   yarn install
+   flutter build apk
+               ~ web
+               ~ win
    ```
-
-4. Set up environment variables:
-   Create a `.env.local` file in the root directory and add necessary environment variables.
-
-5. Run the development server:
-   ```
-   npm run dev
-   # or
-   yarn dev
-   ```
-
-6. Open [http://localhost:3000](http://localhost:3000) in your browser to see the app.
 
 ## Contributing
 
-We welcome contributions to the Knot app! Please read our contributing guidelines before submitting pull requests.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+We welcome contributions to the Knot! Please read our contributing guidelines before submitting pull requests.
 
 ## Acknowledgments
 
